@@ -1,0 +1,20 @@
+[project]
+name = "yaduha-tutorial"
+version = "0.1.0"
+description = "Interactive tutorial notebook for the Yaduha LLM-RBMT translation framework"
+requires-python = ">=3.10"
+dependencies = [
+    "yaduha",
+    "yaduha-ovp",
+    "openai>=1.40",
+    "python-dotenv>=1.0",
+    "ipykernel>=6.29",
+    "ipywidgets>=8.1",
+    "jupyterlab>=4.2",
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+]
+
+[tool.uv.sources]
+yaduha = { path = "./yaduha", editable = true }
+yaduha-ovp = { path = "./yaduha-ovp", editable = true }

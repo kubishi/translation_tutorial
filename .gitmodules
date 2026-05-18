@@ -1,0 +1,6 @@
+[submodule "yaduha"]
+	path = yaduha
+	url = https://github.com/kubishi/yaduha.git
+[submodule "yaduha-ovp"]
+	path = yaduha-ovp
+	url = https://github.com/kubishi/yaduha-ovp.git
