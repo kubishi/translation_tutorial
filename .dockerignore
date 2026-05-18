@@ -1,0 +1,50 @@
+
+# Local-only files (papers, slides, scratch)
+local/
+
+# Secrets — pass at runtime with --env-file
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+
+# Virtualenvs (re-created inside the image by uv sync)
+.venv/
+venv/
+env/
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.cache/
+.uv-cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker itself
+Dockerfile
+.dockerignore
+
+# Docs/meta not needed at runtime
+README.md
