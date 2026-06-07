@@ -1,0 +1,9 @@
+services:
+  tutorial:
+    build:
+      context: .
+    image: jaredraycoleman/yaduha-tutorial:v1
+    ports:
+      - "8888:8888"
+    env_file:
+      - .env
